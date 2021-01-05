@@ -31,6 +31,7 @@ a#premiumbtn { background-image:url(../img/skyblue.gif); background-repeat-x; bo
 a#probtn { background-image:url(../img/pinklol.gif); background-repeat-x; border-color:#8a2040; }
 a#greenbtn { background-image:url(../img/green.gif); background-repeat-x; border-color:#186318; }
 a.roundbtn span { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:.65em; line-height:150% }
+a.smlroundbtn span { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:.75em; line-height:150% }
 a#freebtn span { color:#33190a; }
 a#premiumbtn span { color:#0a2433; }
 a#probtn span { color:#300a15; }
