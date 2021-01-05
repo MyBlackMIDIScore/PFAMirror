@@ -1,0 +1,70 @@
+body { margin:0px; text-align:center; font-family:"Lucida Sans", "Lucida Sans Unicode", "Helvetica Neue", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif; font-size:small; color:#333; background:#FFF url(../img/bg_gradesmall.png) repeat-x; height:100%; }
+body.home { background-image:url(../img/bg_grade.png); }
+
+img { border:0px; }
+.clear { clear: both;}
+
+div.page { width:900px; margin:0px auto 20px; }
+div.hdr { -webkit-border-top-left-radius:10px;-webkit-border-top-right-radius:50px;-moz-border-radius-topleft:10px;
+        -moz-border-radius-topright:50px;border-top-left-radius:10px;border-top-right-radius:50px;
+        width:100%; background-image:url(../img/hdr_bckgnd.gif); background-repeat-x; height:75px; }
+div.hdr div#logo { float:left; padding:18px 6px 2px 20px; }
+div.hdr div#notes { float:right; padding:0px 20px 0px 6px; }
+div.hdr :focus { outline:none; }
+div.main { width:100%; text-align:left; }
+div.download { text-align:center; width:260px; float:right; }
+div.spcr { margin-top:105px; }
+div.ftr { font-family:Verdana, Arial, Helvetica, sans-serif; margin-top:30px; text-align:left; font-size:.75em; letter-spacing:-0.1px; padding-left:12px; padding-top:6px; border-top:1px solid #aaa; }
+div.ftr a { color:#333; text-decoration:none; }
+div.ftr a:hover { text-decoration:underline; }
+div.ftrLnk { margin-bottom:5px; }
+div.mainTbl div.answer { margin-top:-14px; margin-bottom:-10px; width:650px; float:left; }
+div.mainTbl div.download { width:250px; float:right; }
+
+a { color:#3D4489; }
+a.roundbtn { webkit-border-radius:10px;-moz-border-radius:10px; border-radius:10px; text-decoration:none;
+            font-family:Georgia, serif; width:200px; margin:0px 5px 10px 0px; display:inline-block; border:2px solid; font-size:1.4em; color:#FFF; padding:10px 0px; }
+a.smlroundbtn { webkit-border-radius:9px;-moz-border-radius:9px; border-radius:9px; text-decoration:none;
+            font-family:Georgia, serif; width:170px; margin:0px 5px 10px 0px; display:inline-block; border:2px solid; font-size:1em; color:#FFF; padding:10px 0px; }
+a#freebtn { background-image:url(../img/orange.gif); background-repeat-x; border-color:#824019; }
+a#premiumbtn { background-image:url(../img/skyblue.gif); background-repeat-x; border-color:#1c5a7f; }
+a#probtn { background-image:url(../img/pinklol.gif); background-repeat-x; border-color:#8a2040; }
+a#greenbtn { background-image:url(../img/green.gif); background-repeat-x; border-color:#186318; }
+a.roundbtn span { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:.65em; line-height:150% }
+a#freebtn span { color:#33190a; }
+a#premiumbtn span { color:#0a2433; }
+a#probtn span { color:#300a15; }
+a#greenbtn span { color:#0c330c; }
+
+table { border-collapse:collapse; width:100%; }
+table.nav { -webkit-border-bottom-left-radius:50px;-webkit-border-bottom-right-radius:10px;-moz-border-radius-bottomleft:50px;
+          -moz-border-radius-bottomright:10px;border-bottom-left-radius:50px;border-bottom-right-radius:10px;
+          background-image:url(../img/bg_nav.gif); background-repeat-x; border-top:1px solid #6d6d6d; margin-bottom:20px; }
+table.nav td { text-align:center; padding:0px 2px 0px 2px; }
+table.nav a { color:#fff; text-decoration:none; display:block; padding:6px 0px 8px 0px; }
+table.nav :focus { outline:none; }
+
+td.mnSpn { font-family:Verdana, Arial, Helvetica, sans-serif; width:120px; }
+td.mnSpn  :hover { background-image:url(../img/bg_nav_slct.gif); background-repeat:repeat; }
+
+p { margin-top:0px; margin-bottom:10px; line-height:1.25em; }
+p.bigwhite { font-family:Georgia, serif; font-size:3.3em; color:#FFF; line-height:100%; }
+p.subtitle { font-family:Georgia, serif; margin-top:10px; margin-bottom:-22px; font-size:1.5em; line-height:160%; color:#333; }
+
+.questions li { color:#333; font-size:.9em; padding-bottom:5px; }
+.questions a { color:#3D4489; }
+.answer a { color:#3D4489; }
+.smallquestion { margin-left:20px; margin-bottom:0px; }
+.smallanswer { margin-left:20px; }
+.smallquestion span { font-family: Constantia, Palatino, Garamond, "Hoefler Text", baskerville, "palatino linotype", cambria, "times new roman", serif; font-size: 15px; color: #3D4489; margin: 14px 0 8px 0; font-weight: 500; }
+.smallanswer span { font-family: Constantia, Palatino, Garamond, "Hoefler Text", baskerville, "palatino linotype", cambria, "times new roman", serif; font-size: 15px; color: #3D4489; margin: 14px 0 8px 0; font-weight: 500; }
+
+h1, h2, h3, h4 {
+  font-family: Constantia, Palatino, Garamond, "Hoefler Text", baskerville, "palatino linotype", cambria, "times new roman", serif;
+  color: #333;
+  font-weight: normal;
+}
+h1 { font-family:Georgia, serif; font-size:2.5em; color:#FFF; margin: 0px 0 5px 0; }
+h2 { font-size: 18px; color: #3D4489; margin: 14px 0 8px 0; font-weight: 500; }
+h3 { font-family:Georgia, serif; font-size:1.25em; color:#333; margin: 0px 0 15px 0; }
+h2 span { font-family:"Lucida Sans", "Lucida Sans Unicode", "Helvetica Neue", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif; font-size:x-small; }
